@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-navigation-bar-container {
+    background: rgb(30, 30, 30, 0.5);
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    color: white;
+    margin-bottom: 10px;
+    transition: backdrop-filter 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.bg-dark-50-blur {
+    background: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.top-navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav-logo {
+    padding: 10px;
+    align-content: center;
+}
+
+.topnav-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.topnav-link {
+    padding: 10px;
+    margin-right: 3px;
+}
+
+.topnav-link:hover {
+    text-decoration: underline;
+}
+
+.hero-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hero-card .hero-card-image {
+    border-radius: 10px;
+    max-width: 30%; 
+    height: auto;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.hero-card .card-title {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-card .card-subtitle {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-card .card-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.hero-card .card-body {
+    margin-right: auto;
+}
+
+.hero-card .card-footer {
+    margin-top: 0;
+    text-align: justify;
+}
+
+.hero-card .card-wrapper {
+    margin-right: auto;
+}
+
+.hero-card .custom-button {
+    background: #09e267;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px black;
+    margin-right: 10px;
+}
+
+.hero-card .custom-button:hover {
+    box-shadow: 3px 3px black;
+}
+
+.icon-text-bundle {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.icon-text-bundle .icon {
+    margin-right: 5px;
+}
+
+.icon-text-bundle p {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-icons-container .skill-icon {
+    font-size: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    color: #111111;
+}
+
+.skill-icons-container .skill-icon-img {
+    height: 50px;
+}
+
+.content-image {
+    border-radius: 5px;
+    max-height: 450px; 
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .top-navigation-bar{
+        flex-direction: column;
+    }
+
+    .topnav-links-container {
+        justify-content: center;
+    }
+
+    .hero-card {
+        flex-direction: column;
+    }
+
+    .hero-card .card-body {
+        margin-right: 0;
+    }
+
+    .hero-card .hero-card-image {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    .footer {
+        flex-wrap: nowrap;
+        flex-flow: column;
+    }
+}

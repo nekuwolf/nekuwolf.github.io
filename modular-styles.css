@@ -1,0 +1,230 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    box-shadow: 3px 3px black;
+}
+
+.button-with-icon {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.button-with-icon .icon {
+    margin-right: 5px;
+}
+
+.button-with-icon:hover {
+    box-shadow: 3px 3px black;
+}
+
+.instagram {
+    background: #eb0845;
+    color: white;
+}
+
+.instagram .icon {
+    margin-right: 5px;
+}
+
+.email {
+    background: #323131;
+    color: white;
+}
+
+.email .icon {
+    margin-right: 5px;
+}
+
+.discord {
+    background: #7d08eb;
+    color: white;
+}
+
+.discord .icon {
+    margin-right: 5px;
+}
+
+.twitter {
+    background: #3208eb;
+    color: white;
+}
+
+.twitter .icon {
+    margin-right: 5px;
+}
+
+.bluesky {
+    background: #0881eb;
+    color: white;
+}
+
+.bluesky .icon {
+    margin-right: 5px;
+}
+
+.github {
+    background: #03b727;
+    color: #ffffff;
+}
+
+.github .icon {
+    margin-right: 5px;
+}
+
+.formal-document {
+    background: #09e267;
+    color: #000000;
+}
+
+.formal-document .icon {
+    margin-right: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.me-5 {
+    margin-right: 5px;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.bg-whitesmoke-50 {
+    background: rgba(245, 245, 245, 0.5);
+}
+
+.bg-whitesmoke-100 {
+    background: rgb(245, 245, 245);
+}
+
+.bg-dark-50 {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.bg-dark-100 {
+    background: rgb(30, 30, 30);
+}
+
+.bg-blur {
+    backdrop-filter: blur(5px);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.container-xxl {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-l {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.link {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.text-large {
+    font-size: large;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.bg-warning {
+    background: #e20808;
+}
+
+.me-auto {
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.text-normal {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.text-vertical-spacing-none {
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+
+.align-content-center {
+    align-content: center;
+}
+
+.p-10 {
+    padding: 10px;
+}

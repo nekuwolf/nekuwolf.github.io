@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nekuwolf - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modular-styles.css">
+    <script src="https://kit.fontawesome.com/462dfaefb7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Onest:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    Hello world
+    <header id="topNavContainer" class="top-navigation-bar-container">
+        <div class="container-l top-navigation-bar">
+            <div class="topnav-logo"><a class="text-white text-decoration-none" href="#">Nekuwolf</a></div>
+            <div class="topnav-links-container">
+                <a class="topnav-link text-white text-decoration-none" href="#about-me">About Me</a>
+                <a class="topnav-link text-white text-decoration-none" href="#projects">Projects</a>
+                <a class="topnav-link text-white text-decoration-none" href="#skills">Skills</a>
+                <a class="topnav-link text-white text-decoration-none" href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="container-l top-navigation-bar">
+        </div>
+    </header>
+    <div id="about-me" class="container-l p-5 hero-card">
+        <div class="card-body">
+            <p class="card-title">About Me</p>
+            <p class="card-text"><span id="greeting">Greetings</span>, I'm Nekuwolf pleased to meet you.</p>
+            <p class="card-text">I started doing programing as a hobby, and have been considering it as a career in the future.</p>
+            <p class="card-text">I'm currently a college student studying Information Technology at <a href="https://www.stikom-bali.ac.id/" target="_blank" rel="noopener noreferrer" class="link" >Institut Teknologi dan Bisnis STIKOM Bali</a>.</p>
+            <p class="card-text">I'm eager to learn about new and exciting stuff, but my specialties resides in:</p>
+            <p class="card-text">
+                <li>Software Programming</li>
+                <li>Computer Wizardry (General computer hardware related stuff)</li>
+            </p>
+            <p class="card-text">Need a formal documents(?), Please have a look at these CV and Resume below.</p>
+            <div class="wrapper d-flex flex-wrap card-text">
+                <a href="maintenance.html" target="_blank" rel="noopener noreferrer" class="button-with-icon formal-document">
+                    <i class="icon fa-solid fa-file"></i><span>Curriculum Vitae</span>
+                </a>
+                <a href="maintenance.html" target="_blank" rel="noopener noreferrer" class="button-with-icon formal-document">
+                    <i class="icon fa-solid fa-file"></i><span>Resume</span>
+                </a>
+            </div>
+            <p class="card-text">Yes, that's my doggo :). I'll put some proper picture later</p>
+        </div>
+        <img class="hero-card-image" src="assets/img/profile-picture.png" alt="Profile-picture">
+    </div>
+    <div id="projects" class="container-l hero-card">
+        <div class="card-body">
+            <p class="card-title">Projects</p>
+            <p class="card-text">These are a few projects/thing-ma-jig that I've worked on</p>
+            <noscript><p class="card-text">Cannot load data, please make sure javascript is enabled.</p></noscript>
+        </div>
+    </div>
+    <div id="skills" class="container-l hero-card">
+        <div class="card-body">
+            <p class="card-title">Skills</p>
+            <p class="card-text">My aplicable/technical skills are as follows:</p>
+            <div class="skill-icons-container card-text">
+                <i class="skill-icon fa-brands fa-html5"></i>
+                <i class="skill-icon fa-brands fa-css3-alt"></i>
+                <i class="skill-icon fa-brands fa-js"></i>
+                <i class="skill-icon fa-brands fa-php"></i>
+                <i class="skill-icon fa-brands fa-bootstrap"></i>
+                <i class="skill-icon fa-brands fa-laravel"></i>
+                <img class="skill-icon skill-icon-img" src="assets/icons/cpp-logo.svg"></img>
+                <i class="skill-icon fa-brands fa-python"></i>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container-l hero-card">
+        <div class="card-body">
+            <p class="card-title">Contact</p>
+            <p class="card-text">I'm reachable via these platforms:</p>
+            <div class="wrapper d-flex flex-wrap card-text">
+                <a href="mailto:agusyogapratama008@gmail.com" class="button-with-icon email">
+                    <i class="icon fa-solid fa-envelope"></i><span>ag...08@gmail.com</span>
+                </a>
+                <a href="https://discord.com/users/385726585967345674" target="_blank" rel="noopener noreferrer" custom-copy-text="nekuwolfie" class="button-with-icon discord">
+                    <i class="icon fa-brands fa-discord"></i><span>nekuwolfie</span>
+                </a>
+            </div>
+            <p class="card-text">I'm also availabe on these platforms:</p>
+            <div class="wrapper d-flex flex-wrap card-text">
+                <a href="https://www.instagram.com/nekuwolfie" target="_blank" rel="noopener noreferrer" class="button-with-icon instagram">
+                    <i class="icon fa-brands fa-instagram"></i><span>nekuwolfie</span>
+                </a>
+                <a href="https://x.com/NekuWolf" target="_blank" rel="noopener noreferrer" class="button-with-icon twitter">
+                    <i class="icon fa-brands fa-twitter"></i><span>NekuWolf</span>
+                </a>
+                <a href="https://bsky.app/profile/nekuwolf.bsky.social" target="_blank" rel="noopener noreferrer" class="button-with-icon bluesky">
+                    <i class="icon fa-brands fa-bluesky"></i><span>nekuwolf.bsky.social</span>
+                </a>
+                <a href="https://github.com/nekuwolf" target="_blank" rel="noopener noreferrer" class="button-with-icon github">
+                    <i class="icon fa-brands fa-github"></i><span>nekuwolf</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark-50 sticky-top text-white">
+        <div class="container-l footer">
+            <div class="wrapper d-flex align-content-center p-10">
+                <p class="text-vertical-spacing-none">End of page, thank you for the visit!</p>
+            </div>
+            <div class="wrapper align-content-center p-10">
+                <p class="text-vertical-spacing-none">Nekuwolf - 2024</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
